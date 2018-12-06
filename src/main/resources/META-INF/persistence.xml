@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="pe.matricula_matriculaIdioma_war_1.0-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>pe.matricula.matriculaidioma.modelo.Nivelacademico</class>
+    <class>pe.matricula.matriculaidioma.modelo.Curso</class>
+    <class>pe.matricula.matriculaidioma.modelo.Estudiante</class>
+    <class>pe.matricula.matriculaidioma.modelo.Detallematricula</class>
+    <class>pe.matricula.matriculaidioma.modelo.DocumentoPago</class>
+    <class>pe.matricula.matriculaidioma.modelo.Accesos</class>
+    <class>pe.matricula.matriculaidioma.modelo.Planestudiante</class>
+    <class>pe.matricula.matriculaidioma.modelo.CargaplanAperturado</class>
+    <class>pe.matricula.matriculaidioma.modelo.Persona</class>
+    <class>pe.matricula.matriculaidioma.modelo.UsuarioAccesos</class>
+    <class>pe.matricula.matriculaidioma.modelo.Detallepago</class>
+    <class>pe.matricula.matriculaidioma.modelo.Facultad</class>
+    <class>pe.matricula.matriculaidioma.modelo.Notascursos</class>
+    <class>pe.matricula.matriculaidioma.modelo.Silabo</class>
+    <class>pe.matricula.matriculaidioma.modelo.Docente</class>
+    <class>pe.matricula.matriculaidioma.modelo.PlanAcademico</class>
+    <class>pe.matricula.matriculaidioma.modelo.Periodo</class>
+    <class>pe.matricula.matriculaidioma.modelo.Aula</class>
+    <class>pe.matricula.matriculaidioma.modelo.CursosAperturados</class>
+    <class>pe.matricula.matriculaidioma.modelo.Matricula</class>
+    <class>pe.matricula.matriculaidioma.modelo.Roles</class>
+    <class>pe.matricula.matriculaidioma.modelo.Login</class>
+    <class>pe.matricula.matriculaidioma.modelo.TipoPago</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/matriculaidiomas?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value=""/>
+    </properties>
+  </persistence-unit>
+</persistence>
